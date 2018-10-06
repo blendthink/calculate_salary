@@ -1,0 +1,24 @@
+{
+    "name": "honwaka/calculate_salary",
+    "license": "",
+    "description": "calculate easy salary",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^7.4",
+        "azuyalabs/yasumi": "^1.8",
+        "nesbot/carbon": "^2.3",
+        "vlucas/phpdotenv": "^2.5"
+    },
+    "authors": [
+        {
+            "name": "HonwakaDeveloper",
+            "email": "honwaka.developer@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Models\\": "models/",
+            "Utils\\": "utils/"
+        }
+    }
+}
